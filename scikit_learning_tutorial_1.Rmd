@@ -1,0 +1,50 @@
+---
+title: "sckit-learn"
+output: html_document
+---
+
+Video from  http://blog.kaggle.com/2015/04/08/new-video-series-introduction-to-machine-learning-with-scikit-learn/ 
+
+## What is machine learning 
+- Machine learning is the semi-automated extraction of knowledge from data
+    - Knowledge from data: Starts with a question that might be answerable using data 
+    - Aumated extraction: A computer provides the insight
+    - Semi-automated: Requires many smart decisions by a human
+
+## Two main categories of machine learning
+- Supervised learning: making predictions using data
+    - There is an outcome we are trying to predict 
+- Unsupervised learning: extracting structure from data
+    - There is no "right answer"
+
+## How does machine learning "work"?
+- First, train a machine learning model using labeled dta
+    - "labeled data" has been labeled with the outcome
+    - "Machine learning model" learns the relationship between the attributions of the data and its outcome
+- Then, make predictions on new data for which the label is unknown 
+- The primary goal of supervised learning is to build a model that "generalizes". It accurately predicts the future rather than the past!
+
+## Questions about machine learning
+- How to choose which attributes of my data to include in the model?
+- how to choose which model to use?
+- how to optimize the model for best performance?
+- how to ensure that build a model that will generalize to unseen data?
+- how to estimate how well my model is likely to perform on unseen data?
+
+## Resources
+- Book: An Introduction to Statistical Learning (book): http://www-bcf.usc.edu/~gareth/ISL/
+- Video: Learning Paradigms (video): http://work.caltech.edu/library/014.html
+
+
+## Vieo 2: Getting started with scikit-learn and IPython Notebook 
+- What are the benefits and drawbacks of scikit-learn
+    - consistent interface to machine learning models
+    - provides many tuning paramters but with sensible defaults
+    - exceptional documentation
+    - rich set of functionality for companison tasks
+    - active community for development and support 
+- Potential drawbacks:
+    - harder (than R) to get started with machine lerning
+    - less emphasis (than R) on model interpretability 
+
+    - 
